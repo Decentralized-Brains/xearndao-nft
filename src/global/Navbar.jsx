@@ -9,23 +9,18 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
-      link: "explore",
-      name: "Explore",
+      link: "home",
+      name: "Home",
     },
     {
       id: 2,
-      link: "resources",
-      name: "Resources",
+      link: "stats",
+      name: "Stats",
     },
     {
       id: 3,
-      link: "articles",
-      name: "Articles",
-    },
-    {
-      id: 4,
-      link: "Shop",
-      name: "Shop",
+      link: "marketplace",
+      name: "Marketplace",
     },
   ];
 
@@ -48,7 +43,7 @@ const Navbar = () => {
         }
       >
         {/* this is for large screen devices */}
-        <div className="flex justify-between items-center h-[70px] container text-black px-2 md:px-0">
+        <div className="flex justify-between items-center h-[70px] container text-black px-2 ">
           <div className="flex justify-center items-center gap-3 md:gap-[20px]">
             <img src={Logo} alt="Hypenft" />
             {/* search  */}

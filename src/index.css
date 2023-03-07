@@ -15,10 +15,33 @@ body {
   background-color: #ffffff;
 }
 
+.hero-img {
+  background: linear-gradient(
+      180deg,
+      rgba(116, 121, 138, 0) -0.59%,
+      rgba(16, 19, 23, 0.9) 70.3%
+    ),
+    url("./assets/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /*Big smartphones [426px -> 600px]*/
+  .hero-img {
+    border-radius: 10px;
+  }
+}
+
 @layer components {
   .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 5px;
   }
 }
