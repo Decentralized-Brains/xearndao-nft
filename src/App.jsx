@@ -1,11 +1,13 @@
 import Navbar from "./global/Navbar";
-import Home from "./home/Home";
+import Marketplace from "./marketplace/Marketplace";
+import Footer from "./global/Footer";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
+      <Marketplace />
+      <Footer />
     </div>
   );
 }

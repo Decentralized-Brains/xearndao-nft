@@ -38,6 +38,12 @@ body {
   }
 }
 
+.top-collection {
+  background-color: #13131f;
+  height: 550px;
+  margin-bottom: 100px;
+}
+
 @layer components {
   .container {
     max-width: 1400px;

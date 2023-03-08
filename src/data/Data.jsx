@@ -202,3 +202,54 @@ export const TrendingCollectionData = [
     price: "88",
   },
 ];
+
+import TC1 from "../assets/top-collection/tc1.png";
+import TC2 from "../assets/top-collection/tc2.png";
+import TC3 from "../assets/top-collection/tc3.png";
+
+export const TopCollectionData = [
+  {
+    id: 1,
+    img: TC1,
+    title: "Metaverse Marvel",
+    details: `Introducing our groundbreaking NFT collection that will
+    take you on a journey beyond your wildest imagination.
+    Explore new horizons and unearth untold treasures in a
+    world where art meets technology.`,
+    volume: "11.2",
+    floor: "1.22",
+  },
+  {
+    id: 2,
+    img: TC2,
+    title: "Virtual Mirage",
+    details: `Each NFT is a unique and one-of-a-kind piece of art that
+    is a reflection of the artist's vision and imagination. From
+    pixelated dreamscapes to neon-lit cityscapes, our
+    collection has something for everyone. `,
+    volume: "7.11",
+    floor: "2.04",
+  },
+  {
+    id: 3,
+    img: TC3,
+    title: "Pixelated Wonder",
+    details: `Join us on a journey of discovery and exploration, as we
+    push the boundaries of what is possible with digital art. 
+    Each piece is a window into a new reality, a place where
+    art and technology come together in perfect harmony.`,
+    volume: "217",
+    floor: "10.1",
+  },
+  {
+    id: 4,
+    img: TC1,
+    title: "Metaverse Marvel",
+    details: `Introducing our groundbreaking NFT collection that will
+    take you on a journey beyond your wildest imagination.
+    Explore new horizons and unearth untold treasures in a
+    world where art meets technology.`,
+    volume: "11.2K",
+    floor: "1.22",
+  },
+];
