@@ -12,7 +12,10 @@ SwiperCore.use([Navigation, Pagination]);
 
 import CustomButton from "../components/CustomButton";
 
-import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
+import {
+  MdOutlineArrowBackIos,
+  MdOutlineArrowForwardIos,
+} from "react-icons/md";
 
 const TopCollection = () => {
   let swiper_top_collection;
@@ -67,19 +70,19 @@ const TopCollection = () => {
     <div className="top-collection">
       <div className="container">
         <div className="flex relative justify-between my-5 ">
-          <h1 className="text-3xl  lg:text-[28px] text-white font-bold">
+          <h1 className="text-2xl  md:text-[28px] text-white font-bold">
             Top Collections
           </h1>
           <div className="absolute flex gap-2 right-0 top-0 ">
             {" "}
-            <div className=" swiper-button-prev-top" onClick={handlePrev}>
+            <div className=" swiper-button-prev-top " onClick={handlePrev}>
               <CustomButton>
-                <IoMdArrowRoundBack className="sm:text-xl text-gray-600" />
+                <MdOutlineArrowBackIos className="sm:text-xl text-black group-hover:text-white" />
               </CustomButton>
             </div>
             <div className=" swiper-button-next-top " onClick={handleNext}>
               <CustomButton>
-                <IoMdArrowRoundForward className="sm:text-xl text-gray-600" />
+                <MdOutlineArrowForwardIos className="sm:text-xl text-black group-hover:text-white" />
               </CustomButton>
             </div>
           </div>

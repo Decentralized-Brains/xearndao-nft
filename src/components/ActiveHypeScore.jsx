@@ -6,7 +6,7 @@ import { ActiveTrandingData } from "../data/Data";
 const ActiveHypeScore = () => {
   return (
     <div>
-      <h1 className="text-3xl  lg:text-[28px] text-[#101317] font-bold flex items-center gap-2">
+      <h1 className="text-2xl  md:text-[28px] text-[#101317] font-bold flex items-center gap-2">
         <span>Active HypeScore </span>
         <span>
           <img src={ActiveIcon} alt="" className="h-6" />

@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="mt-36 border-t-[1.5px] border-[#74798A]">
       <div className="container">
-        <div className="flex justify-between p-10 flex-col md:flex-row">
+        <div className="flex justify-between p-5 sm:p-10 flex-col md:flex-row">
           <div className=" text-[#74798A] cursor-pointer text-sm  font-medium flex flex-col justify-center">
-            <img src={Logo} alt="Hypenft" />
+            <img src={Logo} alt="Hypenft" className="h-8 w-36" />
             <div className="py-3 ">Privacy Police</div>
             <div>Term of Services</div>
           </div>

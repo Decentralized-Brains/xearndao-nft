@@ -9,7 +9,10 @@ import TrendingCollectionCard from "./TrendingCollectionCard";
 SwiperCore.use([Navigation, Pagination, Grid]);
 
 import CustomButton from "./CustomButton";
-import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
+import {
+  MdOutlineArrowBackIos,
+  MdOutlineArrowForwardIos,
+} from "react-icons/md";
 
 const Slider = () => {
   let swiper_trend;
@@ -63,7 +66,7 @@ const Slider = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <div className="flex relative justify-between mb-5 ">
-        <h1 className="text-3xl  lg:text-[28px] text-[#101317] font-bold">
+        <h1 className="text-2xl  md:text-[28px] text-[#101317] font-bold">
           Trending Collection
         </h1>
 
@@ -71,12 +74,12 @@ const Slider = () => {
           {" "}
           <div className=" swiper-button-prev-trend" onClick={handlePrev}>
             <CustomButton>
-              <IoMdArrowRoundBack className="sm:text-xl text-gray-600" />
+              <MdOutlineArrowBackIos className="sm:text-xl text-black group-hover:text-white" />
             </CustomButton>
           </div>
           <div className=" swiper-button-next-trend " onClick={handleNext}>
             <CustomButton>
-              <IoMdArrowRoundForward className="sm:text-xl text-gray-600" />
+              <MdOutlineArrowForwardIos className="sm:text-xl text-black group-hover:text-white" />
             </CustomButton>
           </div>
         </div>
